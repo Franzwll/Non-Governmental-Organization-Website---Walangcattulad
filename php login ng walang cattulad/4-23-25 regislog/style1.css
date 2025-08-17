@@ -1,0 +1,46 @@
+body{
+    padding:50px;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #415800, #e566dc,
+                                        #ffb374, #ef5f5f, #d840b6);
+        
+    background-size: 400% 400%;
+    animation: bg 12s ease infinite;
+}
+
+@keyframes bg
+    0%{
+    background-position: 0% 50%;
+    }
+    
+    50%{
+    background-position: 100% 100%;
+    }
+
+    100%{     
+    background-position: 0% 50%;
+    }
+
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+.imglogo{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.registerhere{
+    text-align: center;
+    margin-top: 20px;   
+}
